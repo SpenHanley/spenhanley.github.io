@@ -123,3 +123,9 @@ nav .right_wrapper .top_nav .drop {
 	background-color: floralwhite;
 	color: dimgray;
 }
+
+.images {
+	margin: 10px 0;
+	display: flex;
+	justify-content: space-around;
+}
