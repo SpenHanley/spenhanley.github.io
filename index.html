@@ -1,80 +1,114 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
+
 <head>
-	<meta charset='utf-8' />
+	<meta charset="utf-8">
 	<title>Spen Hanley</title>
-	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-	<link rel='stylesheet' href='style/normalize.css'/>
-	<link rel='stylesheet' href='style/main.css'/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="style/main.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
+
 <body>
-	<nav>
-		<div class='left_wrapper'>
-			<img src='https://avatars2.githubusercontent.com/u/7275547' alt='Image of Spen Hanley' />
-			<p>Spen Hanley</p>
-		</div>
-		<div class='right_wrapper'>
-			<ul class='top_nav' >
+	<nav class="light-blue darken-3" role="navigation">
+		<div class="nav-wrapper container">
+			<a id="logo-container" class="brand-logo" href="#">Spen Hanley</a>
+			<ul class="right hide-on-med-and-down">
 				<li>
-					<a href='#about'>About</a>
-				</li>
-				<li class='drop'>
-						<a href='' class='pdrop' >Projects</a>
-						<div class='dropdown'>
-							<a href=''>Turtle Thingy</a>
-							<a href=''>FlaskForum</a>
-							<a href=''>TEdit</a>
-							<a href=''>Kustom Warn</a>
-						</div>
+					<a href="\">Home</a>
 				</li>
 				<li>
-					<a href='#social'>Social Media</a>
+					<a href="#forum">Flask Forum</a>
 				</li>
 				<li>
-					<a href='#contact'>Contact</a>
+					<a href="#turtle">Turtle Thing</a>
+				</li>
+				<li>
+					<a href="#server">I'm Home Server</a>
 				</li>
 			</ul>
+			<ul id="nav-mobile" class="side-nav">
+				<li>
+					<a href="\">Home</a>
+				</li>
+				<li>
+					<a href="#forum">Flask Forum</a>
+				</li>
+				<li>
+					<a href="#turtle">Turtle Thing</a>
+				</li>
+				<li>
+					<a href="#server">I'm Home Server</a>
+				</li>
+			</ul>
+			<a href="#" data-activates="nav-mobile" class="button-collapse">
+				<i class="material-icons">menu</i>
+			</a>
 		</div>
 	</nav>
-	<div class='wrapper'>
-		<div id='about'>
-			<h2>About</h2>
-			Spen Hanley is currently studying for a BSc in Computer Science at The University of the West of Scotland. He intends on continuing to complete his honors year and then if he doesn't go straight to work for a company is considering doing an MSc in Operating Systems.
+	<div class="container">
+		<div class="row">
+
 		</div>
-		<div>
-			<h2>Projects</h2>
-			<div id="projects">
-				<section id='#turtle' >
-					<h3>Turtle Thingy</h3>
-					<p>
-						This was developed as a simple side project to allow me to practice using and drawing to BufferedImages in the java language. It is based on a toy that was brought into school when I was younger, where you would provide it with instructions and it would follow them. It was also possible to add a pen to the base of the Turtle and have it draw something given the correct commands.
-					</p>
-					<span class="images">
-						<img src="https://camo.githubusercontent.com/3be1dea1b6f5eb3983eaa9412111beb97b7b6ced/687474703a2f2f692e696d6775722e636f6d2f6f61697432554a2e706e67" alt="Picture showing the user interface of the program">
-						<img src="https://camo.githubusercontent.com/26d3028218fa98d0100319cddfb7464737870700/687474703a2f2f692e696d6775722e636f6d2f555750423235362e706e67" alt="Picture showing the user interface where the turtle has drawn the letter 'A'">
-					</span>
-					<p>
-						This project is still being developed as I intend on adding support for a simple custom scripting language to allow for more complex control of the turtle. This project is also going to be used as part of a program for young people in scout groups to allow them to learn something about programming in a simple way that provides instant feedback to their commands.
-					</p>
-				</section>
-				<section id='#flask' >
-					<h3>FlaskForum</h3>
-				</section>
-				<section id='#tedit' >
-					<h3>TEdit</h3>
-				</section>
-				<section id='#kustom' >
-					<h3>Kustom Warn</h3>
-				</section>
+		<div class="row">
+			<div class="col s12 m12">
+				<div class="card">
+					<div class="card-image">
+						<img src="http://placehold.it/1280x624" alt="">
+						<span class="card-title">
+							I'm Home Server
+						</span>
+					</div>
+					<div class="card-content">
+						This is a two part project, one part is the server that is installed on a computer (linux, windows or mac) which communicates with the second part of this project which is an android app that can be downloaded for free from the play store. I created this as I wanted some default settings to be applied on my phone when I get home. For instance I want my phone to switch to vibrate and disable bluetooth so that I don't remain connected to my bluetooth headset and drain the battery on it. It also forwards all of the alerts on my phone to my pc so that I don't have to check my phone every few minutes. All settings can be customised through the web interface, this is done so that the server can be installed on anything that has a web connection and doesn't require the user to access the machine that it is installed on to be able to modify the settings.
+					</div>
+					<div class="card-action">
+						<a href="">View it here</a>
+						<a href="">View on github</a>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div id='social'>
-			<h2>Social Media</h2>
-		</div>
-		<div id='contact'>
-			<h2>Contact Me</h2>
+		<div class="row">
+			<div class="col s12 m6">
+				<div class="card">
+					<div class="card-image">
+						<img src="http://placehold.it/635x312" alt="">
+						<span class="card-title">
+							Flask Forum
+						</span>
+					</div>
+					<div class="card-content">
+						What started as a summer project has expanded into something much bigger, it now supports custom profiles, inboxes and a chat system that can be accessed through a special section of the site.
+					</div>
+					<div class="card-action">
+						<a href="">View it here</a>
+						<a href="">View on github</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m6">
+				<div class="card">
+					<div class="card-image">
+						<img src="http://placehold.it/635x312" alt="">
+						<span class="card-title">
+							Turtle Thingy
+						</span>
+					</div>
+					<div class="card-content">
+						As the name suggests it is yet another project that was started to give me something to do. It is based around a toy turtle that was brought into my primary school when I was younger to teach us about robots and programming.
+					</div>
+					<div class="card-action">
+						<a href="">View it here</a>
+						<a href="">View on github</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-	<script src='js/main.js'></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </body>
+
 </html>
